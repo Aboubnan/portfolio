@@ -1,0 +1,45 @@
+main {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    margin: 1em;
+    padding: 0 1em 0 1em;
+}
+main h1 {
+    padding: 1em 10em 0 10em;
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0 3em 0;
+}
+
+.home-img {
+    width: 40%;
+    opacity: 0.8;
+}
+
+.home-text {
+    width: 40%;
+    margin: auto 0 auto 0;
+    text-align: center;
+    font-size: large;
+}
+
+.home button {
+    padding: 0.5em;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.home button:active {
+    padding: 0.5em;
+    color: white;
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 10px;
+    text-decoration: none;
+}

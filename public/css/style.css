@@ -1,0 +1,141 @@
+* {
+    font-family: "Roboto Mono", serif;
+}
+
+body{
+    /* background-image: url(../image/fond-page.jpg);
+    background-size: 100%; */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 1em;
+    padding: 0 1em 0 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 10em;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+header li{
+    margin: 0 2em 0 2em;
+    text-decoration: none;
+}
+
+::marker {
+    content: none;
+}
+
+header a {
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    padding: 0.5em;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+footer ul {
+    text-decoration: none;
+}
+
+footer li {
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* responsive smartphone */
+@media screen and (max-width: 768px) {
+    /* body{
+        background-image: url(../image/fond-page.jpg);
+        background-size: 150%;
+    } */
+
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 8em;
+    }
+
+    /* menu burger */
+    .burger {
+        cursor: pointer;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .burger span {
+        display: block;
+        height: 4px;
+        background: white;
+        border-radius: 2px;
+        transition: 0.3s;
+      }
+      /* Menu caché par défaut */
+      .menu {
+        display: none;
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+      }
+      .menu.active {
+        display: block;
+      }
+      .menu li {
+        margin: 8px 0;
+      }
+      .menu li a {
+        text-decoration: none;
+        color: white;
+        padding: 1em;
+      }
+      .menu li a:hover {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 0.5em;
+        border-radius: 10px;
+      }
+    
+}

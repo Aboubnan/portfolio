@@ -31,6 +31,7 @@ main h1 {
     padding: 0.5em;
     color: black;
     background-color: white;
+    border: black solid 1px;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -70,6 +71,7 @@ main h1 {
     width: 30%;
     padding: 2em 1em 2em 1em;
     color: white;
+    background-color: black;
     border: rgba(255, 255, 255, 0.5) solid 2px;
     border-radius: 10px;
 }
@@ -87,6 +89,7 @@ main h1 {
     padding: 0.5em;
     color: black;
     background-color: white;
+    border: black solid 1px;
     border-radius: 10px;
     text-decoration: none;
 }

@@ -3,12 +3,12 @@
 }
 
 body{
-    /* background-image: url(../image/fond-page.jpg);
-    background-size: 100%; */
+    background-image: url(../image/fond-page.jpg);
+    background-size: 100%;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     margin: 1em;
     padding: 0 1em 0 1em;
     display: flex;
@@ -53,7 +53,7 @@ header a:hover {
 
 footer {
     background-color: black;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     text-align: center;
     margin: 1em;
@@ -83,10 +83,10 @@ footer a:hover {
 
 /* responsive smartphone */
 @media screen and (max-width: 768px) {
-    /* body{
+    body{
         background-image: url(../image/fond-page.jpg);
         background-size: 150%;
-    } */
+    }
 
     header {
         flex-direction: column;
